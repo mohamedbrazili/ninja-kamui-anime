@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+
+}
+
+body {
+    overflow-x: hidden;
+    background: rgba(0, 0, 0, 0.943);
+}
+
+.main-width {
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(asasas.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero header .logo h2 a {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-family: 'Noto Serif JP', serif;
+
+}
+
+.hero header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(224, 56, 56);
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li :not(:last-child) a:focus {
+    border-bottom: 2px solid rgb(244, 22, 22);
+}
+
+nav ul li .active a {
+    border-bottom: 2px solid rgb(193, 19, 19);
+}
+
+nav ul li .btn a {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    padding: 9px 20px;
+    border-radius: 80px;
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 150px;
+}
+
+nav ul li .btn:hover a {
+    border: 1px solid rgb(125, 4, 4);
+    color: rgb(208, 41, 41);
+    background: rgb(217, 13, 13);
+    transition: .4s;
+
+}
+
+.content {
+    padding-top: 200px;
+    margin: auto 100px;
+
+
+}
+
+.content .main-width h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(223, 23, 23);
+    margin: 0px 0px 45px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.content .main-text p {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    color: rgba(255, 0, 0, 0.815);
+    background: rgb(246, 246, 246);
+    line-height: 2.6;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.content .main-text a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: rgba(127, 26, 26, 0.535);
+    border: 1px solid rgba(199, 19, 19, 0.629);
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content .main-width a:hover {
+    transform: scale(1.2);
+    border: 1px solid #f5dca8;
+    background: transparent;
+    color: white;
+    transition: .4s;
+
+}
+
+.nadifak {
+    color: white;
+}
+
+.wayeh {
+    display: flex;
+
+}
+
+.wabatmo {
+    width: 250px;
+
+
+}
+
+.viewport {
+    display: flex;
+
+    width: 80%;
+
+    background-image: url(asasas.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+
+
+}
+
+h6 {
+    font-size: x-large;
+    color: white;
+}
+
+h4 {
+    margin: 40px;
+    padding: 4px 15px;
+    font-size: xx-large;
+    border: 2px solid red;
+    text-align: center;
+    color: white;
+}
